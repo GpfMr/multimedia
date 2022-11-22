@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3D535E128D07E64009E53BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D535E028D07E64009E53BB /* AppDelegate.m */; };
+		F3D535E428D07E64009E53BB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D535E328D07E64009E53BB /* SceneDelegate.m */; };
+		F3D535E728D07E64009E53BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D535E628D07E64009E53BB /* ViewController.m */; };
+		F3D535EA28D07E64009E53BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D535E828D07E64009E53BB /* Main.storyboard */; };
+		F3D535EC28D07E65009E53BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D535EB28D07E65009E53BB /* Assets.xcassets */; };
+		F3D535EF28D07E65009E53BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D535ED28D07E65009E53BB /* LaunchScreen.storyboard */; };
+		F3D535F228D07E65009E53BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D535F128D07E65009E53BB /* main.m */; };
+		F3D535F928D087E0009E53BB /* Bee.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F3D535F828D087E0009E53BB /* Bee.usdz */; };
+		F3D535FD28D13A0B009E53BB /* PFHardwareVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D535FC28D13A0B009E53BB /* PFHardwareVideoEncoder.m */; };
+		F3D535FF28D179B0009E53BB /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D535FE28D179B0009E53BB /* art.scnassets */; };
+		F3D5360328D1A910009E53BB /* PFLiveVideoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D5360228D1A910009E53BB /* PFLiveVideoConfiguration.m */; };
+		F3D5360728D1AE41009E53BB /* PFVideoFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D5360628D1AE41009E53BB /* PFVideoFrame.m */; };
+		F3D5360A28D1AE5C009E53BB /* PFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D5360928D1AE5C009E53BB /* PFFrame.m */; };
+		F3D5360D28D1B29F009E53BB /* PFLiveSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D5360C28D1B29F009E53BB /* PFLiveSession.m */; };
+		F3D5361228D1B7BB009E53BB /* PFLiveAudioConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D5361128D1B7BB009E53BB /* PFLiveAudioConfiguration.m */; };
+		F3D5361728D1CC31009E53BB /* PFHardwareAudioEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D5361628D1CC31009E53BB /* PFHardwareAudioEncoder.m */; };
+		F3D5361A28D1D0C2009E53BB /* PFAudioFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D5361928D1D0C2009E53BB /* PFAudioFrame.m */; };
+		F3D5362C28D1D7D4009E53BB /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = F3D5361D28D1D7D4009E53BB /* error.c */; };
+		F3D5362D28D1D7D4009E53BB /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = F3D5362328D1D7D4009E53BB /* log.c */; };
+		F3D5362E28D1D7D4009E53BB /* hashswf.c in Sources */ = {isa = PBXBuildFile; fileRef = F3D5362428D1D7D4009E53BB /* hashswf.c */; };
+		F3D5362F28D1D7D4009E53BB /* parseurl.c in Sources */ = {isa = PBXBuildFile; fileRef = F3D5362728D1D7D4009E53BB /* parseurl.c */; };
+		F3D5363028D1D7D4009E53BB /* rtmp.c in Sources */ = {isa = PBXBuildFile; fileRef = F3D5362828D1D7D4009E53BB /* rtmp.c */; };
+		F3D5363128D1D7D4009E53BB /* amf.c in Sources */ = {isa = PBXBuildFile; fileRef = F3D5362B28D1D7D4009E53BB /* amf.c */; };
+		F3D5363428D1D89D009E53BB /* PFLiveStreamInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D5363328D1D89D009E53BB /* PFLiveStreamInfo.m */; };
+		F3D5363828D1DAF4009E53BB /* PFStreamingBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D5363728D1DAF4009E53BB /* PFStreamingBuffer.m */; };
+		F3D5363B28D1DB9C009E53BB /* NSMutableArray+PFAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D5363A28D1DB9C009E53BB /* NSMutableArray+PFAdd.m */; };
+		F3D5363E28D28062009E53BB /* PFStreamRTMPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D5363D28D28062009E53BB /* PFStreamRTMPSocket.m */; };
+		F3D5364228D28677009E53BB /* PFLiveDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D5364128D28677009E53BB /* PFLiveDebug.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3D535DC28D07E64009E53BB /* ARLiveVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARLiveVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D535DF28D07E64009E53BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3D535E028D07E64009E53BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3D535E228D07E64009E53BB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F3D535E328D07E64009E53BB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F3D535E528D07E64009E53BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3D535E628D07E64009E53BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3D535E928D07E64009E53BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3D535EB28D07E65009E53BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3D535EE28D07E65009E53BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3D535F028D07E65009E53BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D535F128D07E65009E53BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3D535F828D087E0009E53BB /* Bee.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bee.usdz; sourceTree = "<group>"; };
+		F3D535FA28D13888009E53BB /* PFDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFDelegate.h; sourceTree = "<group>"; };
+		F3D535FB28D13A0B009E53BB /* PFHardwareVideoEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFHardwareVideoEncoder.h; sourceTree = "<group>"; };
+		F3D535FC28D13A0B009E53BB /* PFHardwareVideoEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFHardwareVideoEncoder.m; sourceTree = "<group>"; };
+		F3D535FE28D179B0009E53BB /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F3D5360128D1A910009E53BB /* PFLiveVideoConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLiveVideoConfiguration.h; sourceTree = "<group>"; };
+		F3D5360228D1A910009E53BB /* PFLiveVideoConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFLiveVideoConfiguration.m; sourceTree = "<group>"; };
+		F3D5360528D1AE41009E53BB /* PFVideoFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFVideoFrame.h; sourceTree = "<group>"; };
+		F3D5360628D1AE41009E53BB /* PFVideoFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFVideoFrame.m; sourceTree = "<group>"; };
+		F3D5360828D1AE5C009E53BB /* PFFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFFrame.h; sourceTree = "<group>"; };
+		F3D5360928D1AE5C009E53BB /* PFFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFFrame.m; sourceTree = "<group>"; };
+		F3D5360B28D1B29F009E53BB /* PFLiveSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLiveSession.h; sourceTree = "<group>"; };
+		F3D5360C28D1B29F009E53BB /* PFLiveSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFLiveSession.m; sourceTree = "<group>"; };
+		F3D5360F28D1B2D2009E53BB /* PFLiveKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLiveKit.h; sourceTree = "<group>"; };
+		F3D5361028D1B7BB009E53BB /* PFLiveAudioConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLiveAudioConfiguration.h; sourceTree = "<group>"; };
+		F3D5361128D1B7BB009E53BB /* PFLiveAudioConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFLiveAudioConfiguration.m; sourceTree = "<group>"; };
+		F3D5361428D1C5AB009E53BB /* PFCaptureDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFCaptureDelegate.h; sourceTree = "<group>"; };
+		F3D5361528D1CC31009E53BB /* PFHardwareAudioEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFHardwareAudioEncoder.h; sourceTree = "<group>"; };
+		F3D5361628D1CC31009E53BB /* PFHardwareAudioEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFHardwareAudioEncoder.m; sourceTree = "<group>"; };
+		F3D5361828D1D0C2009E53BB /* PFAudioFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFAudioFrame.h; sourceTree = "<group>"; };
+		F3D5361928D1D0C2009E53BB /* PFAudioFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFAudioFrame.m; sourceTree = "<group>"; };
+		F3D5361C28D1D7D4009E53BB /* bytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytes.h; sourceTree = "<group>"; };
+		F3D5361D28D1D7D4009E53BB /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		F3D5361E28D1D7D4009E53BB /* rtmp_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp_sys.h; sourceTree = "<group>"; };
+		F3D5361F28D1D7D4009E53BB /* amf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amf.h; sourceTree = "<group>"; };
+		F3D5362028D1D7D4009E53BB /* dhgroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dhgroups.h; sourceTree = "<group>"; };
+		F3D5362128D1D7D4009E53BB /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		F3D5362228D1D7D4009E53BB /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		F3D5362328D1D7D4009E53BB /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		F3D5362428D1D7D4009E53BB /* hashswf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashswf.c; sourceTree = "<group>"; };
+		F3D5362528D1D7D4009E53BB /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		F3D5362628D1D7D4009E53BB /* handshake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handshake.h; sourceTree = "<group>"; };
+		F3D5362728D1D7D4009E53BB /* parseurl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parseurl.c; sourceTree = "<group>"; };
+		F3D5362828D1D7D4009E53BB /* rtmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rtmp.c; sourceTree = "<group>"; };
+		F3D5362928D1D7D4009E53BB /* rtmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp.h; sourceTree = "<group>"; };
+		F3D5362A28D1D7D4009E53BB /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		F3D5362B28D1D7D4009E53BB /* amf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amf.c; sourceTree = "<group>"; };
+		F3D5363228D1D89D009E53BB /* PFLiveStreamInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLiveStreamInfo.h; sourceTree = "<group>"; };
+		F3D5363328D1D89D009E53BB /* PFLiveStreamInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFLiveStreamInfo.m; sourceTree = "<group>"; };
+		F3D5363628D1DAF4009E53BB /* PFStreamingBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFStreamingBuffer.h; sourceTree = "<group>"; };
+		F3D5363728D1DAF4009E53BB /* PFStreamingBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFStreamingBuffer.m; sourceTree = "<group>"; };
+		F3D5363928D1DB9C009E53BB /* NSMutableArray+PFAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+PFAdd.h"; sourceTree = "<group>"; };
+		F3D5363A28D1DB9C009E53BB /* NSMutableArray+PFAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+PFAdd.m"; sourceTree = "<group>"; };
+		F3D5363C28D28062009E53BB /* PFStreamRTMPSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFStreamRTMPSocket.h; sourceTree = "<group>"; };
+		F3D5363D28D28062009E53BB /* PFStreamRTMPSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFStreamRTMPSocket.m; sourceTree = "<group>"; };
+		F3D5363F28D28086009E53BB /* PFStreamSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFStreamSocket.h; sourceTree = "<group>"; };
+		F3D5364028D28677009E53BB /* PFLiveDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLiveDebug.h; sourceTree = "<group>"; };
+		F3D5364128D28677009E53BB /* PFLiveDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFLiveDebug.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3D535D928D07E64009E53BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3D535D328D07E64009E53BB = {
+			isa = PBXGroup;
+			children = (
+				F3D535DE28D07E64009E53BB /* ARLiveVideo */,
+				F3D535DD28D07E64009E53BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3D535DD28D07E64009E53BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3D535DC28D07E64009E53BB /* ARLiveVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3D535DE28D07E64009E53BB /* ARLiveVideo */ = {
+			isa = PBXGroup;
+			children = (
+				F3D535FE28D179B0009E53BB /* art.scnassets */,
+				F3D535F828D087E0009E53BB /* Bee.usdz */,
+				F3D535DF28D07E64009E53BB /* AppDelegate.h */,
+				F3D535E028D07E64009E53BB /* AppDelegate.m */,
+				F3D535E228D07E64009E53BB /* SceneDelegate.h */,
+				F3D535E328D07E64009E53BB /* SceneDelegate.m */,
+				F3D535E528D07E64009E53BB /* ViewController.h */,
+				F3D535E628D07E64009E53BB /* ViewController.m */,
+				F3D5360E28D1B2A7009E53BB /* PFLiveKit */,
+				F3D535E828D07E64009E53BB /* Main.storyboard */,
+				F3D535EB28D07E65009E53BB /* Assets.xcassets */,
+				F3D535ED28D07E65009E53BB /* LaunchScreen.storyboard */,
+				F3D535F028D07E65009E53BB /* Info.plist */,
+				F3D535F128D07E65009E53BB /* main.m */,
+			);
+			path = ARLiveVideo;
+			sourceTree = "<group>";
+		};
+		F3D5360028D1A8ED009E53BB /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F3D5361028D1B7BB009E53BB /* PFLiveAudioConfiguration.h */,
+				F3D5361128D1B7BB009E53BB /* PFLiveAudioConfiguration.m */,
+				F3D5360128D1A910009E53BB /* PFLiveVideoConfiguration.h */,
+				F3D5360228D1A910009E53BB /* PFLiveVideoConfiguration.m */,
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		F3D5360428D1AE28009E53BB /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				F3D5360828D1AE5C009E53BB /* PFFrame.h */,
+				F3D5360928D1AE5C009E53BB /* PFFrame.m */,
+				F3D5360528D1AE41009E53BB /* PFVideoFrame.h */,
+				F3D5360628D1AE41009E53BB /* PFVideoFrame.m */,
+				F3D5361828D1D0C2009E53BB /* PFAudioFrame.h */,
+				F3D5361928D1D0C2009E53BB /* PFAudioFrame.m */,
+				F3D5363228D1D89D009E53BB /* PFLiveStreamInfo.h */,
+				F3D5363328D1D89D009E53BB /* PFLiveStreamInfo.m */,
+				F3D5364028D28677009E53BB /* PFLiveDebug.h */,
+				F3D5364128D28677009E53BB /* PFLiveDebug.m */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		F3D5360E28D1B2A7009E53BB /* PFLiveKit */ = {
+			isa = PBXGroup;
+			children = (
+				F3D5360F28D1B2D2009E53BB /* PFLiveKit.h */,
+				F3D5360B28D1B29F009E53BB /* PFLiveSession.h */,
+				F3D5360C28D1B29F009E53BB /* PFLiveSession.m */,
+				F3D5361528D1CC31009E53BB /* PFHardwareAudioEncoder.h */,
+				F3D5361628D1CC31009E53BB /* PFHardwareAudioEncoder.m */,
+				F3D535FB28D13A0B009E53BB /* PFHardwareVideoEncoder.h */,
+				F3D535FC28D13A0B009E53BB /* PFHardwareVideoEncoder.m */,
+				F3D535FA28D13888009E53BB /* PFDelegate.h */,
+				F3D5363528D1DA43009E53BB /* publish */,
+				F3D5361B28D1D7B2009E53BB /* pili-librtmp */,
+				F3D5361328D1C587009E53BB /* camera */,
+				F3D5360428D1AE28009E53BB /* objects */,
+				F3D5360028D1A8ED009E53BB /* configuration */,
+			);
+			path = PFLiveKit;
+			sourceTree = "<group>";
+		};
+		F3D5361328D1C587009E53BB /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				F3D5361428D1C5AB009E53BB /* PFCaptureDelegate.h */,
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+		F3D5361B28D1D7B2009E53BB /* pili-librtmp */ = {
+			isa = PBXGroup;
+			children = (
+				F3D5362B28D1D7D4009E53BB /* amf.c */,
+				F3D5361F28D1D7D4009E53BB /* amf.h */,
+				F3D5361C28D1D7D4009E53BB /* bytes.h */,
+				F3D5362228D1D7D4009E53BB /* dh.h */,
+				F3D5362028D1D7D4009E53BB /* dhgroups.h */,
+				F3D5361D28D1D7D4009E53BB /* error.c */,
+				F3D5362528D1D7D4009E53BB /* error.h */,
+				F3D5362628D1D7D4009E53BB /* handshake.h */,
+				F3D5362428D1D7D4009E53BB /* hashswf.c */,
+				F3D5362A28D1D7D4009E53BB /* http.h */,
+				F3D5362328D1D7D4009E53BB /* log.c */,
+				F3D5362128D1D7D4009E53BB /* log.h */,
+				F3D5362728D1D7D4009E53BB /* parseurl.c */,
+				F3D5361E28D1D7D4009E53BB /* rtmp_sys.h */,
+				F3D5362828D1D7D4009E53BB /* rtmp.c */,
+				F3D5362928D1D7D4009E53BB /* rtmp.h */,
+			);
+			path = "pili-librtmp";
+			sourceTree = "<group>";
+		};
+		F3D5363528D1DA43009E53BB /* publish */ = {
+			isa = PBXGroup;
+			children = (
+				F3D5363628D1DAF4009E53BB /* PFStreamingBuffer.h */,
+				F3D5363728D1DAF4009E53BB /* PFStreamingBuffer.m */,
+				F3D5363F28D28086009E53BB /* PFStreamSocket.h */,
+				F3D5363C28D28062009E53BB /* PFStreamRTMPSocket.h */,
+				F3D5363D28D28062009E53BB /* PFStreamRTMPSocket.m */,
+				F3D5363928D1DB9C009E53BB /* NSMutableArray+PFAdd.h */,
+				F3D5363A28D1DB9C009E53BB /* NSMutableArray+PFAdd.m */,
+			);
+			path = publish;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3D535DB28D07E64009E53BB /* ARLiveVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D535F528D07E65009E53BB /* Build configuration list for PBXNativeTarget "ARLiveVideo" */;
+			buildPhases = (
+				F3D535D828D07E64009E53BB /* Sources */,
+				F3D535D928D07E64009E53BB /* Frameworks */,
+				F3D535DA28D07E64009E53BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARLiveVideo;
+			productName = ARLiveVideo;
+			productReference = F3D535DC28D07E64009E53BB /* ARLiveVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3D535D428D07E64009E53BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F3D535DB28D07E64009E53BB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = F3D535D728D07E64009E53BB /* Build configuration list for PBXProject "ARLiveVideo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3D535D328D07E64009E53BB;
+			productRefGroup = F3D535DD28D07E64009E53BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3D535DB28D07E64009E53BB /* ARLiveVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3D535DA28D07E64009E53BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D535F928D087E0009E53BB /* Bee.usdz in Resources */,
+				F3D535EF28D07E65009E53BB /* LaunchScreen.storyboard in Resources */,
+				F3D535FF28D179B0009E53BB /* art.scnassets in Resources */,
+				F3D535EC28D07E65009E53BB /* Assets.xcassets in Resources */,
+				F3D535EA28D07E64009E53BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3D535D828D07E64009E53BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D5361A28D1D0C2009E53BB /* PFAudioFrame.m in Sources */,
+				F3D535E728D07E64009E53BB /* ViewController.m in Sources */,
+				F3D5361228D1B7BB009E53BB /* PFLiveAudioConfiguration.m in Sources */,
+				F3D5362C28D1D7D4009E53BB /* error.c in Sources */,
+				F3D5362D28D1D7D4009E53BB /* log.c in Sources */,
+				F3D5361728D1CC31009E53BB /* PFHardwareAudioEncoder.m in Sources */,
+				F3D5363428D1D89D009E53BB /* PFLiveStreamInfo.m in Sources */,
+				F3D5360D28D1B29F009E53BB /* PFLiveSession.m in Sources */,
+				F3D535E128D07E64009E53BB /* AppDelegate.m in Sources */,
+				F3D5363E28D28062009E53BB /* PFStreamRTMPSocket.m in Sources */,
+				F3D5360728D1AE41009E53BB /* PFVideoFrame.m in Sources */,
+				F3D5363028D1D7D4009E53BB /* rtmp.c in Sources */,
+				F3D5362F28D1D7D4009E53BB /* parseurl.c in Sources */,
+				F3D535FD28D13A0B009E53BB /* PFHardwareVideoEncoder.m in Sources */,
+				F3D5363128D1D7D4009E53BB /* amf.c in Sources */,
+				F3D535F228D07E65009E53BB /* main.m in Sources */,
+				F3D5362E28D1D7D4009E53BB /* hashswf.c in Sources */,
+				F3D5363828D1DAF4009E53BB /* PFStreamingBuffer.m in Sources */,
+				F3D5360A28D1AE5C009E53BB /* PFFrame.m in Sources */,
+				F3D5364228D28677009E53BB /* PFLiveDebug.m in Sources */,
+				F3D5363B28D1DB9C009E53BB /* NSMutableArray+PFAdd.m in Sources */,
+				F3D5360328D1A910009E53BB /* PFLiveVideoConfiguration.m in Sources */,
+				F3D535E428D07E64009E53BB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3D535E828D07E64009E53BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D535E928D07E64009E53BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3D535ED28D07E65009E53BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D535EE28D07E65009E53BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3D535F328D07E65009E53BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3D535F428D07E65009E53BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3D535F628D07E65009E53BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARLiveVideo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR展示及使用需要用到相机功能";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "录视频时需要使用到麦克风功能";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "保存图片和视频时需要使用相册功能";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gpf.test.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3D535F728D07E65009E53BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX7EYW9LC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARLiveVideo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR展示及使用需要用到相机功能";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "录视频时需要使用到麦克风功能";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "保存图片和视频时需要使用相册功能";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gpf.test.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3D535D728D07E64009E53BB /* Build configuration list for PBXProject "ARLiveVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D535F328D07E65009E53BB /* Debug */,
+				F3D535F428D07E65009E53BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D535F528D07E65009E53BB /* Build configuration list for PBXNativeTarget "ARLiveVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D535F628D07E65009E53BB /* Debug */,
+				F3D535F728D07E65009E53BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3D535D428D07E64009E53BB /* Project object */;
+}

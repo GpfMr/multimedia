@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ady-8o-7V8">
+                                <rect key="frame" x="10" y="67" width="88.5" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="Fm9-Cu-gYE"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="开始直播"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFI-7L-bYh">
+                                <rect key="frame" x="108.5" y="67" width="88.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="录制"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6P-Of-pgg">
+                                <rect key="frame" x="207" y="67" width="88.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="滤镜"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBd-LK-JLe">
+                                <rect key="frame" x="305.5" y="67" width="88.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="切换相机"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="S6P-Of-pgg" firstAttribute="centerY" secondItem="Ady-8o-7V8" secondAttribute="centerY" id="8Cx-Vp-IxJ"/>
+                            <constraint firstItem="Ady-8o-7V8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="C5a-7P-RVo"/>
+                            <constraint firstItem="MBd-LK-JLe" firstAttribute="height" secondItem="Ady-8o-7V8" secondAttribute="height" id="CEz-wv-375"/>
+                            <constraint firstItem="Ady-8o-7V8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="23" id="L0n-Qh-36N"/>
+                            <constraint firstItem="S6P-Of-pgg" firstAttribute="height" secondItem="Ady-8o-7V8" secondAttribute="height" id="LwS-5L-8or"/>
+                            <constraint firstItem="S6P-Of-pgg" firstAttribute="leading" secondItem="EFI-7L-bYh" secondAttribute="trailing" constant="10" id="UY0-7j-VUZ"/>
+                            <constraint firstItem="S6P-Of-pgg" firstAttribute="width" secondItem="Ady-8o-7V8" secondAttribute="width" id="VYP-No-GDZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MBd-LK-JLe" secondAttribute="trailing" constant="20" id="W7k-rz-zTD"/>
+                            <constraint firstItem="EFI-7L-bYh" firstAttribute="centerY" secondItem="Ady-8o-7V8" secondAttribute="centerY" id="fdc-OS-A8O"/>
+                            <constraint firstItem="EFI-7L-bYh" firstAttribute="width" secondItem="Ady-8o-7V8" secondAttribute="width" id="gGJ-pZ-ffg"/>
+                            <constraint firstItem="MBd-LK-JLe" firstAttribute="width" secondItem="Ady-8o-7V8" secondAttribute="width" id="hUy-sz-MxW"/>
+                            <constraint firstItem="MBd-LK-JLe" firstAttribute="centerY" secondItem="Ady-8o-7V8" secondAttribute="centerY" id="iRZ-UX-DYw"/>
+                            <constraint firstItem="EFI-7L-bYh" firstAttribute="leading" secondItem="Ady-8o-7V8" secondAttribute="trailing" constant="10" id="mmh-kh-sHX"/>
+                            <constraint firstItem="EFI-7L-bYh" firstAttribute="height" secondItem="Ady-8o-7V8" secondAttribute="height" id="oOj-Qx-wVq"/>
+                            <constraint firstItem="MBd-LK-JLe" firstAttribute="leading" secondItem="S6P-Of-pgg" secondAttribute="trailing" constant="10" id="zqa-zp-Iwh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="filterBtn" destination="S6P-Of-pgg" id="pBk-tt-8hp"/>
+                        <outlet property="liveingBtn" destination="Ady-8o-7V8" id="gd4-5j-AIj"/>
+                        <outlet property="recodingBtn" destination="EFI-7L-bYh" id="pv4-Oj-xug"/>
+                        <outlet property="switchCamera" destination="MBd-LK-JLe" id="gBs-uC-01z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35" y="123"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
